@@ -6,7 +6,7 @@ export const siteConfig = {
   name: "TradeDeck",
   description: "Next.js fintech & trading dashboard template",
   edition: "lite" as "lite" | "pro",
-  proUrl: "https://gumroad.com", // replace with your Gumroad product link
+  proUrl: "https://aaravster23.gumroad.com/l/tradedeck-pro",
 };
 
 /** Sidebar links. The pro edition adds 8 more entries here. */

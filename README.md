@@ -6,7 +6,7 @@ technical ranking screen. Built with **Next.js 16, React 19, Tailwind CSS v4,
 shadcn/ui and TypeScript**. No backend needed: everything runs on editable mock data
 until you plug in your own API.
 
-> **Live demo:** [tradedecklite.netlify.app](https://tradedecklite.netlify.app) · **Pro version (11 pages):** `https://your-gumroad-link`
+> **Live demo:** [tradedecklite.netlify.app](https://tradedecklite.netlify.app) · **Pro version (11 pages):** [join the waitlist](https://aaravster23.gumroad.com/l/tradedeck-pro)
 
 ![TradeDeck dashboard screenshot](./public/screenshot-dashboard.png)
 
@@ -280,7 +280,7 @@ Any host that runs Next.js (Railway, a Node server) works too.
 | Commercial licence for client and SaaS projects | | ✓ |
 | Email support and updates | | ✓ |
 
-**Get Pro:** `https://your-gumroad-link`
+**Get Pro:** [https://aaravster23.gumroad.com/l/tradedeck-pro](https://aaravster23.gumroad.com/l/tradedeck-pro)
 
 ---
 
