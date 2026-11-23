@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FMCG",
+    "changePct": 2.43
+  },
+  {
+    "name": "Financials",
+    "changePct": 2.11
+  },
+  {
+    "name": "Infra",
+    "changePct": 1.54
+  },
+  {
+    "name": "Banking",
+    "changePct": 1.52
+  },
+  {
+    "name": "IT",
+    "changePct": 1.02
+  },
+  {
+    "name": "Pharma",
+    "changePct": 0.61
+  },
+  {
+    "name": "Energy",
+    "changePct": 0.59
+  },
+  {
+    "name": "Consumer",
+    "changePct": -0.03
+  },
+  {
+    "name": "Power",
+    "changePct": -0.23
+  },
+  {
+    "name": "Cement",
+    "changePct": -0.73
+  },
+  {
+    "name": "Telecom",
+    "changePct": -0.83
+  },
+  {
+    "name": "Auto",
+    "changePct": -1.31
+  }
+]

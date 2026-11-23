@@ -1,0 +1,112 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* Dark mode is toggled by a "dark" class on <html> (set by next-themes) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ---------- Design tokens (shadcn/ui naming): change colours here ---------- */
+:root {
+  --radius: 0.75rem;
+  --background: #f7f8fa;
+  --foreground: #0f1419;
+  --card: #ffffff;
+  --card-foreground: #0f1419;
+  --popover: #ffffff;
+  --popover-foreground: #0f1419;
+  --primary: #2563eb;
+  --primary-foreground: #ffffff;
+  --secondary: #f1f3f6;
+  --secondary-foreground: #0f1419;
+  --muted: #f1f3f6;
+  --muted-foreground: #5b6573;
+  --accent: #eef2ff;
+  --accent-foreground: #1e3a8a;
+  --destructive: #dc2626;
+  --border: #e3e6eb;
+  --input: #e3e6eb;
+  --ring: #2563eb;
+  /* Market colours */
+  --up: #16a34a;
+  --down: #dc2626;
+  --warn: #d97706;
+  /* Chart palette */
+  --chart-1: #2563eb;
+  --chart-2: #16a34a;
+  --chart-3: #d97706;
+  --chart-4: #9333ea;
+  --chart-5: #0891b2;
+}
+
+.dark {
+  --background: #0b0e14;
+  --foreground: #e6e9ef;
+  --card: #121722;
+  --card-foreground: #e6e9ef;
+  --popover: #121722;
+  --popover-foreground: #e6e9ef;
+  --primary: #3b82f6;
+  --primary-foreground: #ffffff;
+  --secondary: #1a2030;
+  --secondary-foreground: #e6e9ef;
+  --muted: #1a2030;
+  --muted-foreground: #8b95a7;
+  --accent: #1a2540;
+  --accent-foreground: #bfdbfe;
+  --destructive: #ef4444;
+  --border: #252c3b;
+  --input: #252c3b;
+  --ring: #3b82f6;
+  --up: #22c55e;
+  --down: #ef4444;
+  --warn: #f59e0b;
+  --chart-1: #3b82f6;
+  --chart-2: #22c55e;
+  --chart-3: #d97706;
+  --chart-4: #a855f7;
+  --chart-5: #06b6d4;
+}
+
+/* Expose tokens as Tailwind utilities: bg-card, text-muted-foreground, text-up ... */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-up: var(--up);
+  --color-down: var(--down);
+  --color-warn: var(--warn);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
