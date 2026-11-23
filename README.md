@@ -6,7 +6,7 @@ technical ranking screen. Built with **Next.js 16, React 19, Tailwind CSS v4,
 shadcn/ui and TypeScript**. No backend needed: everything runs on editable mock data
 until you plug in your own API.
 
-> **Live demo:** `https://your-demo-url.vercel.app` · **Pro version (11 pages):** `https://your-gumroad-link`
+> **Live demo:** `https://your-demo-url.netlify.app` · **Pro version (11 pages):** `https://your-gumroad-link`
 
 ![TradeDeck dashboard screenshot](./public/screenshot-dashboard.png)
 
@@ -24,7 +24,7 @@ until you plug in your own API.
   - [Connecting a real API](#4-connecting-a-real-api)
   - [Adding a page](#5-adding-a-page)
   - [Ranking model](#6-ranking-model)
-- [Deploy to Vercel](#deploy-to-vercel)
+- [Deploy](#deploy)
 - [Lite vs Pro](#lite-vs-pro)
 - [Licence and attribution](#licence-and-attribution)
 - [FAQ](#faq)
@@ -248,19 +248,19 @@ The explanation on the page reads these values, so it stays accurate when you ch
 
 ---
 
-## Deploy to Vercel
+## Deploy
 
-1. Push the project to a GitHub repository.
-2. Go to [vercel.com/new](https://vercel.com/new), import the repository and click **Deploy**.
-   No settings or environment variables are needed for the mock-data version.
+One click copies this repository to your GitHub account and deploys it. No settings or
+environment variables are needed for the mock-data version.
 
-Or use the one-click button (replace `YOUR-USERNAME/YOUR-REPO`):
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/aarav-quant/tradedeck-lite)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/aarav-quant/tradedeck-lite)
 
-```md
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/YOUR-USERNAME/YOUR-REPO)
-```
+- **Netlify:** the free plan allows commercial projects.
+- **Vercel:** the free Hobby plan is for personal, non-commercial use only. Use a Pro plan
+  for client or commercial sites.
 
-Any host that runs Next.js (Netlify, Railway, a Node server) works too.
+Any host that runs Next.js (Railway, a Node server) works too.
 
 ---
 
